@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Sorting;
 
 namespace BinarySearchTree
 {
@@ -14,7 +15,7 @@ namespace BinarySearchTree
 
             if (!isInputOrdered)
             {
-                Helper.Sort(input);
+                QuickSort.Sort(input);
             }
 
             var halfLength = length / 2;

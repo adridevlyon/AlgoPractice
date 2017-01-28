@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{52956016-9E15-4E9F-9539-B3C90862EDAE}</ProjectGuid>
+    <ProjectGuid>{C78E6DA2-5972-4C8B-8984-4764F785BC9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BinarySearchTreeTests</RootNamespace>
-    <AssemblyName>BinarySearchTreeTests</AssemblyName>
+    <RootNamespace>SortingTests</RootNamespace>
+    <AssemblyName>SortingTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -17,10 +17,6 @@
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
     <TargetFrameworkProfile />
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,14 +51,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="BinarySearchTreeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TreeTests.cs" />
+    <Compile Include="QuickSortTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BinarySearchTree\BinarySearchTree.csproj">
-      <Project>{208C69A5-B7CF-4169-ACB8-E8506FE8BA25}</Project>
-      <Name>BinarySearchTree</Name>
+    <ProjectReference Include="..\Sorting\Sorting.csproj">
+      <Project>{483FD979-A565-43E3-9F13-F05E2052A3FB}</Project>
+      <Name>Sorting</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

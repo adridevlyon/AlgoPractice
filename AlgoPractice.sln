@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinaryS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTreeTests", "BinarySearchTreeTests\BinarySearchTreeTests.csproj", "{52956016-9E15-4E9F-9539-B3C90862EDAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{483FD979-A565-43E3-9F13-F05E2052A3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTests", "SortingTests\SortingTests.csproj", "{C78E6DA2-5972-4C8B-8984-4764F785BC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,20 +25,16 @@ Global
 		{52956016-9E15-4E9F-9539-B3C90862EDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52956016-9E15-4E9F-9539-B3C90862EDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52956016-9E15-4E9F-9539-B3C90862EDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483FD979-A565-43E3-9F13-F05E2052A3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483FD979-A565-43E3-9F13-F05E2052A3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483FD979-A565-43E3-9F13-F05E2052A3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483FD979-A565-43E3-9F13-F05E2052A3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78E6DA2-5972-4C8B-8984-4764F785BC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78E6DA2-5972-4C8B-8984-4764F785BC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78E6DA2-5972-4C8B-8984-4764F785BC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78E6DA2-5972-4C8B-8984-4764F785BC9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://adricom.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BinarySearchTree\\BinarySearchTree.csproj
-		SccProjectName1 = BinarySearchTree
-		SccLocalPath1 = BinarySearchTree
-		SccProjectUniqueName2 = BinarySearchTreeTests\\BinarySearchTreeTests.csproj
-		SccProjectName2 = BinarySearchTreeTests
-		SccLocalPath2 = BinarySearchTreeTests
 	EndGlobalSection
 EndGlobal

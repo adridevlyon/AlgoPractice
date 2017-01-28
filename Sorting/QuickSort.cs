@@ -1,19 +1,20 @@
 ﻿using System.Collections.Generic;
 
-namespace BinarySearchTree
+namespace Sorting
 {
-    public static class Helper
+    public static class QuickSort
     {
-        public static void Sort(List<int> input, int start = 0, int end = -1)
+        public static void Sort(List<int> input)
         {
             var length = input?.Count ?? 0;
             if (length <= 1) return;
 
-            if (end == -1)
-            {
-                end = length;
-            }
+            Sort(input, 0, length);
+        }
 
+
+        private static void Sort(List<int> input, int start, int end)
+        {
             if (end - start <= 1) return;
 
             var pivotIndex = start;
