@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BinarySearchTree.Tests
+namespace BinarySearchTree.Test
 {
     [TestClass()]
-    public class BinarySearchTreeTests
+    public class BinarySearchTreeTest
     {
         [TestMethod]
         public void CreateNullBinarySearchTree()

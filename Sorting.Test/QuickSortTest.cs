@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Sorting.Tests
+namespace Sorting.Test
 {
     [TestClass()]
-    public class QuickSortTests
+    public class QuickSortTest
     {
         [TestMethod()]
         public void SortTest()

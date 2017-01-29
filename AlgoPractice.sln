@@ -5,11 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{208C69A5-B7CF-4169-ACB8-E8506FE8BA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTreeTests", "BinarySearchTreeTests\BinarySearchTreeTests.csproj", "{52956016-9E15-4E9F-9539-B3C90862EDAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree.Test", "BinarySearchTree.Test\BinarySearchTree.Test.csproj", "{52956016-9E15-4E9F-9539-B3C90862EDAE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{483FD979-A565-43E3-9F13-F05E2052A3FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTests", "SortingTests\SortingTests.csproj", "{C78E6DA2-5972-4C8B-8984-4764F785BC9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting.Test", "Sorting.Test\Sorting.Test.csproj", "{C78E6DA2-5972-4C8B-8984-4764F785BC9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

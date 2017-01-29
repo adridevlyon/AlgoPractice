@@ -6,9 +6,9 @@
     <ProjectGuid>{C78E6DA2-5972-4C8B-8984-4764F785BC9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SortingTests</RootNamespace>
-    <AssemblyName>SortingTests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>Sorting.Test</RootNamespace>
+    <AssemblyName>Sorting.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -52,7 +52,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuickSortTests.cs" />
+    <Compile Include="QuickSortTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sorting\Sorting.csproj">

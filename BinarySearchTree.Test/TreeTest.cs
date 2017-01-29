@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BinarySearchTree.Tests
+namespace BinarySearchTree.Test
 {
     [TestClass()]
-    public class TreeTests
+    public class TreeTest
     {
         [TestMethod()]
         public void SimpleTreesAreNotEqual()
