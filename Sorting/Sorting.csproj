@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISort.cs" />
+    <Compile Include="Sort.cs" />
+    <Compile Include="ISortFactory.cs" />
     <Compile Include="QuickSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

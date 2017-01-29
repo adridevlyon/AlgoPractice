@@ -9,21 +9,23 @@ namespace Sorting.Tests
         [TestMethod()]
         public void SortTest()
         {
+            var quickSort = ISortFactory.GetSort(Sort.QuickSort);
+
             List<int> input = null;
-            QuickSort.Sort(input);
+            quickSort.Sort(input);
             Assert.IsNull(input);
 
             input = new List<int>();
-            QuickSort.Sort(input);
+            quickSort.Sort(input);
             Assert.AreEqual(0, input.Count);
 
             input = new List<int> { 5 };
-            QuickSort.Sort(input);
+            quickSort.Sort(input);
             Assert.AreEqual(1, input.Count);
             Assert.AreEqual(5, input[0]);
 
             input = new List<int> { 5, 4, 1, 8, 6, 7, 3, 5, 0, 9, 1, 2, 5, 3 };
-            QuickSort.Sort(input);
+            quickSort.Sort(input);
             Assert.AreEqual(14, input.Count);
 
             var expected = new List<int> { 0, 1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 7, 8, 9 };

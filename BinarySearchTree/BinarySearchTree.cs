@@ -15,7 +15,8 @@ namespace BinarySearchTree
 
             if (!isInputOrdered)
             {
-                QuickSort.Sort(input);
+                var quickSort = ISortFactory.GetSort(Sort.QuickSort);
+                quickSort.Sort(input);
             }
 
             var halfLength = length / 2;

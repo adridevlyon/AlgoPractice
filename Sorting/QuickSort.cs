@@ -2,9 +2,9 @@
 
 namespace Sorting
 {
-    public static class QuickSort
+    public class QuickSort : ISort
     {
-        public static void Sort(List<int> input)
+        public void Sort(List<int> input)
         {
             var length = input?.Count ?? 0;
             if (length <= 1) return;
@@ -13,7 +13,7 @@ namespace Sorting
         }
 
 
-        private static void Sort(List<int> input, int start, int end)
+        private void Sort(List<int> input, int start, int end)
         {
             if (end - start <= 1) return;
 
